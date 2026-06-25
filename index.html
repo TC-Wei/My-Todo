@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>待辦清單</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+    
+
+<body>
+    <div class="wrapper">
+    <div class="container">
+        <h1>待辦事項</h1>
+        <div class="input-row">
+        <input type="text" name="search" placeholder="請輸入待辦事項" >
+        <button class=" btn addbtn">新增待辦事項</button>
+        <button class=" btn allbtn">全部完成</button>
+        </div>
+        <ul class="todo-list">
+            <li><button class=" btn checkbtn">完成</button>吃飯</li>
+            <li><button class=" btn checkbtn">完成</button>喝水</li>
+            <li><button class=" btn checkbtn">完成</button>寫作業</li>
+            <li><button class=" btn checkbtn">完成</button>看醫生</li>
+        </ul>
+    </div>
+    <div class="container">
+        <h1>已完成待辦事項</h1>
+        <div class="input-row">
+        <button class=" btn alldeletebtn">刪除全部已完成</button>
+        </div>
+        <ul class="done-list">
+            <li><button class=" btn deletebtn">刪除</button> 吃飯</li>
+        </ul>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
